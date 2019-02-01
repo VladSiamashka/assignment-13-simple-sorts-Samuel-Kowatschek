@@ -23,7 +23,7 @@
 
 void bubble_sort(int numbers[], int len);
 void insertion_sort(int numbers[], int len);
-void init_random(int numbers[], int len);
+void init_random(int numbers[], unsigned long len);
 
 
 #endif
