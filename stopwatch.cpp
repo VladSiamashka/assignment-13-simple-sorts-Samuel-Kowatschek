@@ -12,18 +12,28 @@
 */
 #include "stopwatch.h"
 
-float begin;
-float end;
-
+float begin;    //global variable for the begin of the process
+float end;     //global variable for the end of the process
 
 void start_stopwatch(){
     begin = clock();
 }
 float elapsed_time(){
     if(end < begin)
-        end = clock();
-    return end-begin;
+        return clock() - begin;
+    return end - begin;
 }
 void stop_stopwatch(){
     end = clock();
 }
+/*
+float get_begin(){
+    return begin;
+}
+float get_end(){
+    return end;
+}
+float get_current(){
+    return clock();
+}
+*/
