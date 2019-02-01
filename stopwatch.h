@@ -12,7 +12,7 @@
  */
 #ifndef ___STOPWATCH_H
 #define ___STOPWATCH_H
-
+#include <time.h>
 /**
 *** @file stopwatch.h
 *** @brief Description of stopwatch
@@ -38,4 +38,7 @@
 *** CLOCKS_PER_SEC from time.h in order to implement the functions correctly.
 */
 
+void start_stopwatch();
+float elapsed_time();
+void stop_stopwatch();
 #endif
