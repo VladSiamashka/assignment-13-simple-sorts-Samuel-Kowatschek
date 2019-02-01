@@ -20,6 +20,8 @@ void start_stopwatch(){
     begin = clock();
 }
 float elapsed_time(){
+    if(end < begin)
+        end = clock();
     return end-begin;
 }
 void stop_stopwatch(){
