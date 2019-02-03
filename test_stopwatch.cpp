@@ -64,10 +64,7 @@ TEST(test_stopwatch_advanced)
 TEST(test_stopwatch_cpu_time)
 {
 	start_stopwatch();
-	//printf("Begin: %lf\n", get_begin());
 	sleep(1);
-	/*printf("Current: %lf\n", get_current());
-	printf("Elapsed: %ls \n", get_current()-get_begin());*/
 	stop_stopwatch();
 	ASSERT_EQUALS(0, elapsed_time());
 }

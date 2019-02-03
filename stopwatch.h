@@ -41,7 +41,4 @@
 void start_stopwatch();
 float elapsed_time();
 void stop_stopwatch();
-/*float get_begin();
-float get_end();
-float get_current();*/
 #endif

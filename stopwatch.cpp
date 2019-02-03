@@ -26,14 +26,3 @@ float elapsed_time(){
 void stop_stopwatch(){
     end = clock();
 }
-/*
-float get_begin(){
-    return begin;
-}
-float get_end(){
-    return end;
-}
-float get_current(){
-    return clock();
-}
-*/
